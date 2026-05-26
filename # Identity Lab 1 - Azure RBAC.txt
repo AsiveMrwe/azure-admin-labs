@@ -1,0 +1,53 @@
+# Identity Lab 1 - Azure RBAC
+
+## Objective
+Learn how to create users, groups, and assign RBAC permissions in Microsoft Azure.
+
+---
+
+## Environment
+- Azure Subscription: Subscription 1
+- Region: South Africa North
+
+---
+
+## Tasks Completed
+- Created Resource Group
+- Created Entra ID users
+- Created Security Group
+- Added users to group
+- Assigned Reader role using RBAC
+
+---
+
+## Key Concepts Learned
+
+### Resource Groups
+Used to logically organize Azure resources.
+
+### Microsoft Entra ID
+Provides identity and access management in Azure.
+
+### RBAC
+Role-Based Access Control controls permissions to Azure resources.
+
+### Reader Role
+Allows viewing resources without making changes.
+
+---
+
+## Challenges Encountered
+- No challenges faced, the interface is straight forward and user friendly
+
+---
+
+## Screenshots
+- rg-created.png
+- user1-created.png
+- user2-created.png
+- group-created.png
+- rbac-reader-role.png
+
+##Additional notes
+-support.user1 password - Vaxa420641
+-support.user2 password - Pamo917414
