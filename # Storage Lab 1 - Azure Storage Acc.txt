@@ -1,0 +1,43 @@
+# Storage Lab 1 - Azure Storage Accounts
+
+## Objective
+Learn how to create and manage Azure Storage Accounts and Blob Containers.
+
+---
+
+## Tasks Completed
+- Created Storage Account
+- Configured storage settings
+- Created Blob Container
+- Uploaded files
+- Tested access levels
+
+---
+
+## Key Concepts Learned
+
+### Storage Account
+Provides cloud storage services in Azure.
+
+### Blob Storage
+Used for storing unstructured data such as files and images.
+
+### Containers
+Logical grouping of blobs/files.
+
+### Access Levels
+Controls whether blobs are public or private.
+
+---
+
+## Challenges Encountered
+No challenges
+
+---
+
+## Screenshots
+- storage-rg-create
+- storage-account-create
+- storage-account-created
+- blob-container-created
+- file-uploaded
