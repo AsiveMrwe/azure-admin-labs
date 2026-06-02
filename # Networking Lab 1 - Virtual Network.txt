@@ -1,0 +1,84 @@
+# Networking Lab 1 - Virtual Networks
+
+## Objective
+
+Learn how to create and manage Azure networking resources.
+
+---
+
+## Tasks Completed
+
+- Created Resource Group
+- Created Virtual Network
+- Created Frontend and Backend Subnets
+- Created Network Security Group
+- Linked NSG to subnet
+
+---
+
+## Key Concepts Learned
+
+### Virtual Network (VNet)
+An isolated network in Azure.
+
+### Subnet
+A logical division within a VNet.
+
+### Network Security Group (NSG)
+A virtual firewall that controls traffic.
+
+---
+
+## Lessons Learned
+
+- We are using different subnet ranges to separate different types of systems.
+
+---
+
+## Screenshots
+
+- allow-http-rule.png
+- backend-subnet-created.png
+- custom-nsg-rules.png
+- default-nsg-rules.png
+- frontend-subnet.png
+- network-rg-create.png
+- network-rg-created.png
+- nsg-created.png
+- subnet-asscociated.png
+- vnet-created.png
+- vnet-setting-1.png
+- vnet-setting-2.png
+- vnet-validation-review.png
+
+
+
+## NSG Rules
+
+Created custom inbound rules:
+
+- Allow HTTP (Port 80)
+- Allow HTTPS (Port 443)
+
+Learned that NSGs evaluate rules by priority and stop at the first matching rule.
+
+## Custom NSG Rules
+
+Created two inbound security rules:
+
+| Rule | Port | Priority |
+|------|------|----------|
+| Allow-HTTP | 80 | 100 |
+| Allow-HTTPS | 443 | 110 |
+
+Observed Azure default rules:
+
+| Rule | Priority |
+|------|----------|
+| AllowVnetInBound | 65000 |
+| AllowAzureLoadBalancerInBound | 65001 |
+| DenyAllInbound | 65500 |
+
+### Key Learning
+
+Network Security Groups process rules from the lowest priority number to the highest. The first matching rule is applied.
