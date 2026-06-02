@@ -30,7 +30,7 @@ Practical Microsoft Azure administration labs completed as part of my AZ-104 pre
 |---|---|---|
 | Lab 1 | Identity & RBAC | Completed |
 | Lab 2 | Storage Accounts | Completed |
-| Lab 3 | Virtual Networking | Pending |
+| Lab 3 | Virtual Networking | Completed |
 | Lab 4 | Azure Virtual Machines | Pending |
 
 ---
