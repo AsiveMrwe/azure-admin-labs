@@ -1,0 +1,97 @@
+# VM Lab 1 - Azure Virtual Machine
+
+## Objective
+
+Learn how to deploy and manage Azure Virtual Machines.
+
+---
+
+## Tasks Completed
+
+- Created Resource Group
+- Created Virtual Machine
+- Configured Networking
+- Connected using RDP
+- Reviewed VM settings
+
+---
+
+## Key Concepts Learned
+
+### Virtual Machine
+A software-based computer running in Azure.
+
+### Public IP
+Allows access from the Internet.
+
+### NIC
+Connects a VM to a network.
+
+### RDP
+Used to remotely manage Windows VMs.
+
+
+---
+
+## Screenshots
+
+- resource-group-resource
+- v-disks-configured
+- vm-basics-configured
+- vm-deployment-complete
+- vm-desktop
+- vm-disk-details
+- vm-login-screen
+- vm-management-configured
+- vm-monitoring-configured
+- vm-networking-configured
+- vm-networking-rules
+- vm-overview
+- vm-rdp-page
+- vm-rg-created
+- vm-rg-review
+- vm-size-options
+- vm-validation-passed
+
+
+
+## Deployment Results
+
+Successfully deployed:
+
+- Windows Server 2022 VM
+- Public IP Address
+- Network Interface
+- Managed OS Disk
+
+## Remote Access
+
+Connected successfully using Remote Desktop Protocol (RDP).
+
+## Key Learning
+
+A VM requires:
+
+- Compute (VM)
+- Storage (OS Disk)
+- Networking (NIC)
+- Optional Public IP
+
+Azure automatically created supporting resources during deployment.
+
+## Azure VM Components
+
+A virtual machine deployment automatically created:
+
+- Virtual Machine
+- Network Interface Card (NIC)
+- Public IP Address
+- Managed OS Disk
+
+## Networking
+
+Verified RDP access through port 3389.
+
+## Cost Management
+
+Stopped and deallocated the VM after testing to avoid unnecessary compute charges.
