@@ -31,9 +31,36 @@ Practical Microsoft Azure administration labs completed as part of my AZ-104 pre
 | Lab 1 | Identity & RBAC | Completed |
 | Lab 2 | Storage Accounts | Completed |
 | Lab 3 | Virtual Networking | Completed |
-| Lab 4 | Azure Virtual Machines | Pending |
+| Lab 4 | Azure Virtual Machines | Completed |
 
 ---
+
+# Azure AZ-104 Lab Portfolio
+
+This repository documents my hands-on Azure Administrator practice while preparing for the Microsoft AZ-104 certification.
+
+## Completed Labs
+
+- Identity & Access Management (Microsoft Entra ID)
+- Role-Based Access Control (RBAC)
+- Azure Storage Accounts
+- Blob Storage
+- Virtual Networks (VNets)
+- Subnets
+- Network Security Groups (NSGs)
+- Azure Virtual Machines
+- Remote Desktop Protocol (RDP) Connectivity
+
+## Skills Demonstrated
+
+- User and Group Administration
+- Access Management
+- Storage Configuration
+- Network Segmentation
+- Firewall Rule Configuration
+- Virtual Machine Deployment
+- Azure Resource Management
+- Azure Portal Administration
 
 ## Certifications
 
